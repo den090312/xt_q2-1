@@ -8,7 +8,7 @@ namespace test
         [Theory]
         [InlineData(-1, false)]
         [InlineData(0, false)]
-        [InlineData(1, true)]
+        [InlineData(1, false)]
         [InlineData(2, true)]
         [InlineData(3, true)]
         [InlineData(4, false)]
