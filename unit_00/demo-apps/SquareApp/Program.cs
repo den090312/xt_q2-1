@@ -1,4 +1,4 @@
-﻿using AppBase;
+﻿using ApplicationBase;
 using Square;
 
 namespace SquareApp
@@ -6,7 +6,7 @@ namespace SquareApp
     /// <summary>
     /// Implements the plotter of squares.
     /// </summary>
-    internal class Application : GenericConsoleApplication
+    internal class Application : IntReader
     {
         protected override void Solve()
         {

@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\AppBase\AppBase.csproj" />
     <ProjectReference Include="..\..\src\Sequence\Sequence.csproj" />
+    <ProjectReference Include="..\..\..\common\ApplicationBase\ApplicationBase.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

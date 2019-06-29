@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Square\Square.csproj" />
-    <ProjectReference Include="..\..\src\AppBase\AppBase.csproj" />
+    <ProjectReference Include="..\..\..\common\ApplicationBase\ApplicationBase.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
