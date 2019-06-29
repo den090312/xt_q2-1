@@ -70,7 +70,7 @@ namespace test
         [InlineData(new [] { 1, 1, 1, 5, 5 }, 1)]
         public void PassGivenArray(int[] values, int expected)
         {
-            Assert.Equal(expected, ArrayUtils.FindMax(values));
+            Assert.Equal(expected, ArrayUtils.FindMin(values));
         }
     }
 
@@ -96,7 +96,7 @@ namespace test
         }
     }
 
-    public class ArrayUtilsReplaceNonPositive3DShould
+    public class ArrayUtilsReplacePositive3DShould
     {
         [Fact]
         public void PassGivenTestArray()
@@ -104,9 +104,9 @@ namespace test
             const int size = 3;
             int[,,] values = new int[size, size, size];
             int[,,] expected = new int[size, size, size];
-            PopulateArray(values, size, -1);
-            PopulateArray(values, size, 0);
-            ArrayUtils.ReplaceNonPositive3D(values);
+            PopulateArray(values, size, 1);
+            PopulateArray(expected, size, 0);
+            ArrayUtils.ReplacePositive3D(values);
             Assert.Equal(expected, values);
         }
 

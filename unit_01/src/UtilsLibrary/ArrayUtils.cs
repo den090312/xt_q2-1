@@ -97,7 +97,7 @@ namespace UtilsLibrary
             return values.Where(t => t >= 0).Sum();
         }
 
-        public static void ReplaceNonPositive3D(int[,,] values)
+        public static void ReplacePositive3D(int[,,] values)
         {
             for (var x = 0; x < values.GetLength(0); ++x)
             {
