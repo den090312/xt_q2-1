@@ -1,4 +1,4 @@
-﻿using AppBase;
+﻿using ApplicationBase;
 using Sequence;
 using System;
 
@@ -7,7 +7,7 @@ namespace SequenceApp
     /// <summary>
     /// Implements an application to generate sequence of numbers based upon user input.
     /// </summary>
-    internal class Application : GenericConsoleApplication
+    internal class Application : IntReader
     {
         protected override void Solve()
         {

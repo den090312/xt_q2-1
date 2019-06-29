@@ -1,4 +1,4 @@
-﻿using AppBase;
+﻿using ApplicationBase;
 using Simple;
 using System;
 
@@ -7,7 +7,7 @@ namespace SimpleApp
     /// <summary>
     /// Implements detection of the fact that a number is a prime number in form of application.
     /// </summary>
-    internal class Application : GenericConsoleApplication
+    internal class Application : IntReader
     {
         protected override void Solve()
         {
