@@ -45,6 +45,7 @@ namespace ArrayProcessing
         {
             Console.WriteLine("Maximum of an array is: {0}", ArrayUtils.FindMax(_values));
             Console.WriteLine("Minimum of an array is: {0}", ArrayUtils.FindMin(_values));
+            Console.WriteLine("Below you can observe sorted array:");
             ArrayUtils.Sort(_values);
             PrintArray();
         }

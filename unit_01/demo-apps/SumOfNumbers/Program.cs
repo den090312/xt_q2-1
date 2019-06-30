@@ -15,7 +15,7 @@ namespace SumOfNumbers
                 }
             }
 
-            Console.WriteLine("Sum of all numbers that are divisible by 3 or 5 is: {0}", sum);
+            Console.WriteLine("Sum of all numbers that are divisible by 3 or 5 and less than a thousand is: {0}", sum);
         }
     }
 }
