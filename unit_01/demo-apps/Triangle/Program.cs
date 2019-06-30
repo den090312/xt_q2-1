@@ -14,7 +14,7 @@ namespace Triangle
 
         protected override void Solve()
         {
-            if (Value < 0)
+            if (Value < 0 || Value > Console.WindowWidth)
             {
                 throw new ArgumentOutOfRangeException();
             }
