@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\UtilsLibrary\UtilsLibrary.csproj" />
+    <ProjectReference Include="..\..\..\common\ApplicationBase\ApplicationBase.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
